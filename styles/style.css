@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --owrmenu: #ffefbc;
+  --nearby: #d8fbff;
+  --party: #ffd6dd;
+  --catering: #fff79a;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  /* border-radius: 10%; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.owr-service-card {
+  border-radius: 8px;
+}
+.owr-menu {
+  background-color: var(--owrmenu);
+}
+.nearby {
+  background-color: var(--nearby);
+}
+.party {
+  background-color: var(--party);
+}
+.catering {
+  background-color: var(--catering);
+}
+.four-steps-card {
+  width: 100px;
+  height: 100px;
+  padding: 40px;
+  box-sizing: content-box;
+  border-radius: 50%;
+}
+.large-text {
+  font-size: 4.2rem;
+}
+.med-text {
+  font-size: 1.8rem;
+}
+@media (max-width: 480px) {
+  .four-steps-card {
+    margin: auto;
+    text-align: center;
+  }
+  .rotate {
+    text-align: center;
+    margin-top: 40px !important;
+    margin-bottom: 40px;
+  }
+  .rotate img {
+    transform: rotate(90deg);
+  }
+  .large-text {
+    font-size: 3.2rem;
+  }
+  .med-text {
+    font-size: 1.2rem;
+  }
+}

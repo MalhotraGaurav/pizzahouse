@@ -1,0 +1,10 @@
+@font-face {
+  font-family: AxeHandel;
+  src: url("../../../fonts/AxeHandel.ttf");
+}
+.font-bold {
+  font-family: AxeHandel !important;
+}
+.shadow {
+  box-shadow: 20px 10px 50px #0c3c3734;
+}
